@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Curency Exchange</title>
+</head>
+<body>
+
+    <button id="modalBtn" class="btn">Показати Курс Bалют</button>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&#10006;</span>
+<table>
+   <caption><p>Курс валют</p></caption>
+   <tr>
+    <th></th>
+    <th>Купівля (грн)</th>
+    <th>Продаж (грн)</th>
+    </tr>
+    <tr>
+        <td>USD</td>
+        <td><span id="usdbuy"></span></td>
+        <td><span id="usdsale"></span></td>
+    </tr>
+    <tr>
+        <td>EUR</td>
+        <td><span id="eurbuy"></span></td>
+        <td><span id="eursale"></span></td>
+    </tr>
+    <tr>
+        <td>RUR</td>
+        <td><span id="rurbuy"></span></td>
+        <td><span id="rursale"></span></td>
+    </tr>
+</table>
+        </div>
+    </div>
+    
+<script src="main.js"></script>
+</body>
+</html>
