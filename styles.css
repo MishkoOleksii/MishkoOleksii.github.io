@@ -48,12 +48,38 @@
     color: red;
 }
 
-table {
+.kurs {
     margin: 30px auto;
-    font-size: 200%; 
+    font-size: 150%; 
     font-family: arial;
 }
 
 td {
     padding: 10px;
+}
+
+#resultSale {
+    display: block;
+}
+
+#resultBuy {
+    display: block;
+    color: purple;
+}
+
+#input-value {
+    border: 3px solid purple;
+    width: 200px;
+}
+
+.card {
+    width: 15%;
+    border-radius: 8px;
+    padding: 30px 0;
+    background-color: #dddddd;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 3px 6px 15px -1px rgba(0,0,0,0.77);
+    
 }
