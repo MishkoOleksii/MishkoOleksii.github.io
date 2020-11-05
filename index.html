@@ -11,7 +11,7 @@
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span class="close">&#10006;</span>
-<table>
+<table class="kurs">
    <caption><p>Курс валют</p></caption>
    <tr>
     <th></th>
@@ -34,7 +34,33 @@
         <td><span id="rursale"></span></td>
     </tr>
 </table>
+      <table>
+      <tr>
+      <td colspan="2">
+      <select id="mySelect">
+          <option>USD</option>
+          <option>EUR</option>
+          <option>RUR</option>
+      </select>
+       <input type="text" id="input-value">
+          </td>
+    </tr>
+       <tr>
+           <td><button id="buybtn">Купити</button></td>
+          <td><button id="salebtn">Продати</button></td>
+        </tr>
+        <tr>
+        <td><div id="resultBuy">-</div></td>
+        <td><div id="resultSale">-</div></td>
+        </tr>
+       </table>
         </div>
+    </div>
+    <div class="card">
+        <div class="city"></div>
+        <img src="" alt="icon" class="icon">
+        <p class="description"></p>
+        <p class="temp"></p>
     </div>
     
 <script src="main.js"></script>
